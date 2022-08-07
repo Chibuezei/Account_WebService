@@ -19,7 +19,6 @@ import java.util.Map;
 
 @RestController
 @Validated
-//@PreAuthorize("hasRole('ROLE_ACCOUNTANT')")
 @RequestMapping("api/acct/payments")
 public class AccountController {
     @Autowired
